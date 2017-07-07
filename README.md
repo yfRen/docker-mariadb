@@ -10,6 +10,7 @@ https://zh.wikipedia.org/wiki/MariaDB
 如何使用此镜像。
 
 运行镜像并绑定到3306端口：
+
     docker run -d -p 3306:3306 centos-mariadb:5.5
 
 Container的挂载目录为 /var/lib/mysql
